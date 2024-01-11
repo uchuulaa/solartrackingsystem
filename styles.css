@@ -1,0 +1,220 @@
+/* Reset default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  nav li {
+    margin-right: 15px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  #social-media {
+    margin-top: 10px;
+  }
+  
+  .social-link {
+    display: inline-block;
+    margin-right: 10px;
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  main {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  #hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  .hero-content {
+  text-align: center;
+  color: #fff;
+  }
+  
+  .hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+  font-size: 24px;
+  margin-bottom: 30px;
+  }
+  
+  .cta-button {
+  background-color: #ff9800;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+  background-color: #f57c00;
+  }
+  
+  .hidden {
+  display: none;
+  }
+  
+  #solar-info {
+  background-color: #fff;
+  padding: 40px;
+  }
+  
+  .solar-info-content {
+  text-align: center;
+  }
+  
+  .solar-info-content h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  }
+  
+  .solar-info-content p {
+  font-size: 18px;
+  margin-bottom: 15px;
+  }
+  
+  .back-button {
+  background-color: #ff9800;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  }
+  
+  .back-button:hover {
+  background-color: #f57c00;
+  }
+  
+  #features {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  }
+  
+  .feature {
+  flex-basis: 300px;
+  margin: 0 20px;
+  text-align: center;
+  }
+  
+  .feature i {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #ff9800;
+  }
+  
+  .feature h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  }
+  
+  .feature p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  }
+  
+  #gallery {
+  padding: 40px;
+  text-align: center;
+  }
+  
+  #gallery h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  }
+  
+  .photo-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  }
+  
+  .photo-container img {
+  max-width: 300px;
+  height: auto;
+  }
+  
+  .feature p {
+    position: relative;
+    font-size: 16px;
+    margin-bottom: 15px;
+    cursor: pointer;
+  }
+  
+  .feature p:hover::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+  }
+
+  .feature {
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .feature:hover {
+    transform: translateY(-10px);
+  }
+
+  footer {
+  background-color: #333;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+  }
+
+  .photo-container img {
+    max-width: 300px;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .photo-container img:hover {
+    transform: scale(1.1);
+  }
